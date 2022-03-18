@@ -1,4 +1,3 @@
-
 pub mod launcher {
     use self::config_parser::Config;
 
@@ -9,7 +8,7 @@ pub mod launcher {
         // let mut config = Config::new();
         // config.update_config();
         // config.parser_to_file().expect("Connot save config.");
-        println!("{:?}",config);
+        println!("{:?}", config);
         "Launcher...."
     }
 }
